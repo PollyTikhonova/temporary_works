@@ -1,0 +1,7 @@
+/*.reveal .slides > section.present, .reveal .slides > section > section.present {
+	height: 60vh!important;
+}*/
+
+body, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+	font-family: sans-serif!important;
+}

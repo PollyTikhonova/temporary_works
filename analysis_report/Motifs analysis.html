@@ -13893,12 +13893,12 @@ require(
         function setScrollingSlide() {
             var scroll = true
             if (scroll === true) {
-              var h = $('.reveal').height() * 0.95;
+              var h = $('.reveal').height() * 0.45;
               $('section.present').find('section')
                 .filter(function() {
                   return $(this).height() > h;
                 })
-                .css('height', 'calc(85vh)')
+                .css('height', 'calc(45vh)')
                 .css('overflow-y', 'scroll')
                 .css('margin-top', '20px');
             }
